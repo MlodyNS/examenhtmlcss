@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*FLEXBOX CLASSES*/
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Justify Content (horizontaal)*/
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items (verticaal) */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Align Self */
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-baseline {
+    align-self: baseline;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* Order */
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 13;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+
+/* Grow and Shrink */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+
+/*styling*/
+.shadow-soft{
+    box-shadow:0px 10px 15px rgba(0,0,0,0.6);
+}
+
+/*uitlijning*/
+.text-center{
+    text-align:center;
+}
+
+/*Width-classe*/
+
+.w-55{
+    width: 55%;
+}
+
+.w-50{
+    width: 45%;
+}
+.w-33{
+    width: 33%;
+}
+
+/* EIGEN CSS */
+body{
+    font-family: "Inter", sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+
+
+header, #herowrap, #portfoliowrap, #dienstenwrap,
+#proceswrap, #overwrap, #contactwrap, #footer{
+    width:1140px;
+    margin:0 auto;
+}
+
+
+.underline{
+    border-bottom:1px solid grey;
+    width: 100vw;
+}
+
+.distancing{
+    margin-top: 55px;
+    padding-bottom: 45px;
+}
+/*text-formating*/
+h1,h2,h3,h4{
+    color: white;
+}
+
+h1{
+    font-size:50px;
+    font-weight:700;
+}
+h2{
+    font-size:40px; margin: 15px 0;
+}
+h3{
+    font-weight:300;font-size:22px;
+}
+p{
+    color: #959595;
+}
+.ppad{
+    padding-bottom: 15px
+}
+h4{
+    font-weight: 100;
+}
+
+.color-stag{
+    color: #0dcd82
+}
+
+/*img-format*/
+
+.img-size{
+    width: 325px;height: 225px; border-radius: 15px
+}
+
+/*header*/
+
+.navlink{
+    color: white; text-decoration:none;
+}
+
+.gradient1{
+    background: linear-gradient(45deg, #7aa2ff, #6cf0c2)
+}
+.gradient-txt{
+    background: linear-gradient(90deg, #7aa2ff, #6cf0c2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/*header-styling*/
+.hight70{
+    height: 70px;
+}
+
+.navlogo{
+    border: 1px solid gray; border-radius: 14px; width: 45px; height: 45px
+}
+
+.navtitle-style{
+    color: #5b7cff; width:200px;padding-left:16px;font-weight:700;
+}
+
+/*hero*/
+
+.margin15{
+    margin: 15px 0
+}
+
+.h1style{
+    padding: 5px 0
+}
+
+.phero{
+    padding: 5px 30px 5px 0; margin: 10px 0; line-height: 20px
+}
+
+.badge{
+    background: transparent; color: gray; border:1px solid gray; border-radius:999px; padding:6px 10px; font-size:12px;
+}
+.badge-style{
+    display: inline-block;
+}
+.marginbtn{
+    margin-left: 10px;
+}
+/*knopen-hovers*/
+
+.knop{
+    border: 1px solid transparent;
+    background: #5b7cff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.knop:hover{
+    border:1px solid #5b7cff;
+    color:#5b7cff;
+    background: transparent;
+}
+.gbutton{
+    border: 1px solid #6c757d;
+    background: transparent;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #6c757d;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.gbutton:hover{
+    border:1px solid transparent;
+    color:#fff;
+    background:#6c757d;
+}
+/*section portfolio*/
+.distancing-bloks{
+    gap: 20px; margin-top: 5px
+}
+
+.projecten{
+    border: 1px solid #222222;
+    background: rgba(38, 40, 55, 0.37);
+    border-radius: 12px;
+    padding: 20px;
+}
+.badgep{
+    background: transparent; color: #0dcd82; border:1px dotted #0dcd82; border-radius:999px; padding:6px 10px; font-size:12px;
+    margin-bottom: 5px;
+}
+.propdh3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.propdp{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*proces*/
+
+.margin8{
+    margin: 8px;
+}
+
+.proces-blok{
+    border-left: 1px solid #6c757d;
+    padding-left: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px
+}
+.ball{
+    background: #5b7cff ;border:1px solid transparent; width: 10px; height: 10px; border-radius: 50px
+}
+
+.nodeco{
+    list-style-type: none;
+}
+
+
+/*form-blokken*/
+
+#form{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+    background: #2628375e;
+}
+
+.naamblok{
+    color:#fff;
+    background: black;
+    border:1px solid gray;
+    padding:12px 15px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.mailblok{
+    color:#fff;
+    background: black;
+    border:1px solid gray;
+    padding:12px 15px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.fomrblok{
+    color:#fff;
+    background: black;
+    border:1px solid gray;
+    border-radius:10px;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    cursor:pointer;
+}
+h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/*footer*/
+
+.
